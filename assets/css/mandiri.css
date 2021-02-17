@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.title-section {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+/* NAVBAR */
+.navbar {
+    padding: 1rem 1.2rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+}
+
+
+/* HEADLINE */
+.headline-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.headline-desc {
+    font-size: 16px;
+}
+
+/* ABOUT US */
+.about-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+}
+
+.about-desc {
+    font-size: 18px;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.btn-griya {
+    background-color: #7340FF;
+    outline-color: #7340FF;
+    color: #FFFFFF;
+    padding: 10px 60px;
+    border-radius: 30px;
+}
+.big-product {
+    margin-top: -70px;
+}
+
+.title-service {
+    margin-top: 20px;
+}
+
+/* GUIDE */
+.container-guide .order {
+    background-color: #7340FF;
+    padding: 40px;
+    border-radius: 25px;
+    color: #FFFFFF;
+}
+
+.container-guide h3 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.container-guide .order h5 {
+    font-style: 18px;
+    font-weight: 600;
+}
+
+.container-guide .contact {
+    padding: 20px 50px;
+}
+
+/* PRODUCT */
+.container-product {
+    margin-top: 70px;
+}
+
+.container-product .list-product {
+    margin-top: 50px;
+}
+
+.container-product .list-product img {
+    border-radius: 20px;
+}
+
+.container-product .btn-griya {
+    margin: 40px 0px;
+}
+
+/* TESTIMONIAL */
+.container-testimonial {
+    background-color: #7340FF;
+    padding: 60px 0px 100px;
+    color: #FFFFFF;
+}
+
+.container-testimonial .title {
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.container-testimonial .testimonial-name {
+    font-weight: 700;
+}
+
+.container-testimonial .testimonial-message {
+    font-size: 16px;
+}
+
+.container-testimonial .testimonial-button .btn-outline-light {
+    padding: 5px 40px;
+    border-radius: 20px;
+}
+
+.container-footer {
+    background-color: #7340FF;
+    margin-top: 50px;
+    padding: 50px 0px;
+    color: #FFFFFF;
+}
+
+@media(max-width: 578px) {
+    .big-product {
+        display: none;
+    }
+}

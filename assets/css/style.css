@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Montserrat:wght@400;600;800&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #313131;
+}
+
+/* NAVBAR */
+.navbar .navbar-nav .nav-item {
+    padding: 10px 40px 10px 0px;
+}
+
+/* HEADLINE */
+.headline-section .headline-title {
+    font-family: "Poppins";
+    line-height:58px;
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.headline-section .headline-desc {
+    color: #313131;
+}
+
+.btn-primary {
+    background-color: #7340FF;
+    outline-color: #7340FF;
+    color: #FFFFFF;
+    padding: 10px 60px;
+    border-radius: 30px;
+}
+
